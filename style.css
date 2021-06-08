@@ -1,0 +1,78 @@
+body {
+	background: #fff;
+}
+
+
+#container {
+	background: #fff;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
+}
+
+h1 {
+
+	position: static;
+}
+
+p {
+	width: 300px;
+}
+
+/*.relative{
+	border: 1px solid red;
+	position: relative;
+	left: 80px;
+	/* top, bottom, right, left */
+
+.absolute {
+	border: 1px solid red;
+	position: absolute;
+	top: 80px;
+	right: 5px;
+}
+
+.conteudo1{
+	border: 1px solid red;
+	background: orange;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index:1;
+}
+
+.conteudo2{
+	border: 1px solid red;
+	background: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top:80px;
+	left: 80px;
+	z-index: 0;
+}
+
+a {
+
+}
+
+/* Links não visitados */
+a:link {
+	color: #b9c941;
+}
+
+/* Links visitados */
+a:visited {
+	color: #c0c0c0;
+}
+
+/* Links Hover - Quando passa o cursos sobre o link */
+a:hover {
+	color: #6d790f;
+}
+
+/* Links ativos - Quando clica no link */
+a:active{
+	color: #e4f371;
+}
